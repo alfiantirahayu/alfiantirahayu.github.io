@@ -1,0 +1,62 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+p {font-size: 16px;}
+.margin {margin-bottom: 20px;}
+.bg-1 { 
+    width: 100%;
+            height: 100%;
+            max-height: 100%;
+            margin: 0;
+            padding: 0;
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+    background-image: url(img/coffee.jpg);
+    color: #000000;
+}
+.bg-2 { 
+    background-color: #331a00;
+    color: #ffffff;
+}
+.bg-3 { 
+    background-color: #ffffff;
+    color: #331a00;
+}
+.bg-4 { 
+    background-color:#331a00;
+    color: #fff;
+}
+.container-fluid {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.navbar {
+overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 98%; 
+    padding-bottom: 0px;
+    border: 0;
+    margin-bottom: 100px;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+
+.author-image img {
+	margin-top: 15px;
+	border-radius: 30px;
+	max-width: 60%;
+	overflow: hidden;
+	float: left;
+	margin-left: 50%;
+}
+
+.second-content h2 img {
+	max-width: 5%;
+}
